@@ -1,0 +1,31 @@
+({
+	arg freq= 55, amp=0.3,atk=1,rel=2,cur=(4);
+	var sig,b,e,f;
+	f   = freq*[1.0,1.002];
+	e   = EnvGen.kr(Env.new([0,1,0],[atk,rel],[0-cur,cur]),doneAction:2);
+	sig = SinOsc.ar(f,[0,-0.5]);
+	sig = SinOsc.ar(f,sig.range(0,2*pi));
+	sig = (sig*0.5).tanh;
+	sig = MoogFF.ar(sig,f,0.5);
+	sig = LeakDC.ar(sig);
+	sig = sig + Decimator.ar(sig,e.linlin(0,1,200,3000),1+e,0.5*e**3);
+	sig = RLPF.ar(sig,4400*(e),1)+RLPF.ar(sig,f*4*(e),0.3,e);
+	sig = sig + GuitarAmp.ar(sig,4*e,0.5,20,2300*(0-e+1.5),mul:0.7);
+	sig = sig+sig.fold(-0.5,0.5);
+	sig = (sig*1*(e*4)).tanh;
+	sig = (sig + Saw.ar(f,0,e)+ SinOsc.ar(f*2,0,1));
+	// sig = sig.tanh;
+	sig = LeakDC.ar(sig);
+	// sig = sig + RLPF.ar(sig,4400*(e),1)+RLPF.ar(sig,f*4*(e),0.3,e);
+	// sig = sig.tanh;
+	sig = sig*e;
+	e2  = Envgen.kr(Env.perc(0.01,0.5,1));
+	b   = SinOsc.ar(f)
+
+	sig = amp*sig;
+	sig = sig;
+}.play
+)
+s.scope
+
+44.play

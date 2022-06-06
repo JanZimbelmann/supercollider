@@ -1,0 +1,7 @@
+includePaths:
+    -   /home/kaoboi/.local/share/SuperCollider/downloaded-quarks/JITLibExtensions
+    -   /home/kaoboi/.local/share/SuperCollider/downloaded-quarks/Bjorklund
+excludePaths:
+    []
+postInlineWarnings: false
+excludeDefaultPaths: false

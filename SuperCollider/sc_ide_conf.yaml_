@@ -1,0 +1,46 @@
+IDE:
+  editor:
+    blinkDuration: 600
+    disableBlinkingCursor: false
+    font:
+      antialias: 2
+      family: DejaVu Sans Mono
+      size: 15
+    highlightBracketContents: true
+    highlightCurrentLine: false
+    inactiveEditorFadeAlpha: 64
+    indentWidth: 4
+    insertMatchingTokens: false
+    lineWrap: true
+    spaceIndent: false
+    stepForwardEvaluation: false
+    theme: dracula
+    useComboBox: false
+    useComboBoxWhenSplitting: false
+  interpreter:
+    autoStart: true
+    configFile: /home/kaoboi/.config/SuperCollider/sclang_conf.yaml
+    runtimeDir: ""
+    standalone: false
+  mainWindow:
+    detached: !QVariantMap
+      documents-dock: ""
+      help-dock: ""
+      post-dock: ""
+    geometry: AdnQywADAAAAAAAAAAAAEgAABPwAAAMHAAAAAgAAABIAAAT6AAADBQAAAAAAAAAABP0AAAACAAAAEgAABPoAAAMF
+    state: AAAA/wAAAAD9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAfsAAAAcAGQAbwBjAHUAbQBlAG4AdABzAC0AZABvAGMAawAAAAAA/////wAAAF4A////AAAAAQAAAZcAAALG/AIAAAAC+wAAABIAaABlAGwAcAAtAGQAbwBjAGsBAAAAFAAAATkAAABMAP////sAAAASAHAAbwBzAHQALQBkAG8AYwBrAQAAAU4AAAGMAAAATAD///8AAANhAAACxgAAAAEAAAACAAAAAQAAAAL8AAAAAA==
+  postWindow:
+    lineWrap: false
+    scrollback: 1000
+  recentDocuments: !QVariantList
+    - /home/kaoboi/studio/superc/opeth/kk.scd
+    - /home/kaoboi/studio/superc/opeth/guitar.scd
+    - /home/kaoboi/.config/SuperCollider/guitar.scd
+    - /home/kaoboi/studio/superc/opeth/partjazz.scd
+    - /home/kaoboi/.config/SuperCollider/effects.scd
+    - /home/kaoboi/studio/superc/opeth/bu/suspedal.scd
+    - /home/kaoboi/studio/superc/opeth/kk_bu?.scd
+    - /home/kaoboi/studio/superc/opeth/bu/kk_pdef.scd
+    - /home/kaoboi/studio/superc/opeth/bu/bu/kk.scd
+    - /home/kaoboi/studio/superc/opeth/bu/kk.scd
+  startWithSession: last

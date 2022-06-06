@@ -1,0 +1,45 @@
+IDE:
+  editor:
+    blinkDuration: 600
+    disableBlinkingCursor: false
+    font:
+      antialias: 2
+      family: DejaVu Sans Mono
+      size: 14
+    highlightBracketContents: true
+    highlightCurrentLine: false
+    inactiveEditorFadeAlpha: 64
+    indentWidth: 4
+    insertMatchingTokens: false
+    lineWrap: true
+    spaceIndent: false
+    stepForwardEvaluation: false
+    theme: dracula
+    useComboBox: false
+    useComboBoxWhenSplitting: false
+  interpreter:
+    autoStart: true
+    configFile: /home/kaoboi/.config/SuperCollider/sclang_conf.yaml
+    runtimeDir: ""
+  mainWindow:
+    detached: !QVariantMap
+      documents-dock: ""
+      help-dock: ""
+      post-dock: ""
+    geometry: AdnQywADAAAAAAAAAAAAEgAABPwAAAMHAAAAAgAAABIAAAT6AAADBQAAAAAAAAAABP0AAAACAAAAEgAABPoAAAMF
+    state: AAAA/wAAAAD9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAfsAAAAcAGQAbwBjAHUAbQBlAG4AdABzAC0AZABvAGMAawAAAAAA/////wAAAF4A////AAAAAQAAAZcAAALG/AIAAAAC+wAAABIAaABlAGwAcAAtAGQAbwBjAGsBAAAAFAAAAX4AAABMAP////sAAAASAHAAbwBzAHQALQBkAG8AYwBrAQAAAZMAAAFHAAAATAD///8AAANhAAACxgAAAAEAAAACAAAAAQAAAAL8AAAAAA==
+  postWindow:
+    lineWrap: true
+    scrollback: 1000
+  recentDocuments: !QVariantList
+    - /home/kaoboi/studio/superc/thatfatbuddhabad/buddha.scd
+    - /home/kaoboi/studio/superc/thatfatbuddhabad/amenpart.scd
+    - /home/kaoboi/studio/superc/thatfatbuddhabad/load.scd
+    - /home/kaoboi/studio/superc/fuckingmagnets/load.scd
+    - /home/kaoboi/.config/SuperCollider/exe_synthdefs.scd
+    - /home/kaoboi/studio/superc/danny/NEWBASS!.scd
+    - /home/kaoboi/studio/superc/danny/ghandi.scd
+    - /home/kaoboi/studio/superc/danny/load.scd
+    - /home/kaoboi/studio/superc/fuckingmagnets/load_bu.scd
+    - /home/kaoboi/studio/superc/mixing_queen/setter_compressor.scd
+  startWithSession: last
